@@ -1,0 +1,41 @@
+.navigation {
+    max-width: 1000px;
+    margin: 0px 20px;
+}
+
+.navigation__list {
+    padding: 30px;
+    background-color: #c9def0;
+    border-radius: 10px;
+}
+
+.navigation__listItem {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #11519b;
+}
+
+.navigation__link:visited {
+    color: #0a2b50;
+    text-decoration: none;
+}
+
+.navigation__link:focus {
+    outline: 2px solid orange;
+}
+
+.navigation__link:active {
+    color: #659ddd;
+    text-decoration: none;
+    outline: 0px;
+}
+
+.navigation__link:hover {
+    text-decoration: none;
+    color: #f88614;
+}

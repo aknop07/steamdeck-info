@@ -1,0 +1,49 @@
+.table {
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.table__cell--header {
+    padding: 20px;
+    background-color: #a1d7fa;
+
+}
+
+.table__cell {
+    padding: 20px;
+    margin: 10px;
+}
+
+.table__row {
+    background-color: #e9f8fa;
+}
+
+.table__row:nth-child(odd) {
+    background-color: #c9def0;
+}
+
+.table__caption {
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section__button--invisible {
+    display: none;
+}
+
+.section__headingSecond {
+    color: #11519b;
+    margin: 20px 50px;
+}
+
+.section__paragraph {
+    background-color: #f7f7f7;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 0px 20px;
+}

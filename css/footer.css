@@ -1,0 +1,12 @@
+.footer {
+    max-width: 1000px;
+    margin: 20px 20px;
+    text-align: center;
+    background-color: #c9def0;
+    border-radius: 10px;
+}
+
+.footer__paragraph {
+    margin: 0px;
+    padding: 20px;
+}
