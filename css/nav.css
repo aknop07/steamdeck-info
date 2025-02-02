@@ -29,13 +29,13 @@
     outline: 2px solid orange;
 }
 
+.navigation__link:hover {
+    text-decoration: none;
+    color: #f88614;
+}
+
 .navigation__link:active {
     color: #659ddd;
     text-decoration: none;
     outline: 0px;
-}
-
-.navigation__link:hover {
-    text-decoration: none;
-    color: #f88614;
 }

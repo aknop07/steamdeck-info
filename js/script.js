@@ -3,7 +3,7 @@
         console.log("Hello world!");
     };
 
-    const toggleBackground = () => {
+    const toggleImageVisibility = () => {
         const heading = document.querySelector(".js-image");
         const text = document.querySelector(".js-text");
         heading.classList.toggle("section__button--invisible");
@@ -12,7 +12,7 @@
 
     const init = () => {
         const button = document.querySelector(".js-button");
-        button.addEventListener("click", toggleBackground);
+        button.addEventListener("click", toggleImageVisibility);
 
         welcome();
     };
