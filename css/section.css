@@ -5,6 +5,7 @@
     border-collapse: collapse;
     border-radius: 10px;
     overflow-x: auto;
+    caption-side: bottom;
 }
 
 .table__cell--header {
@@ -28,8 +29,9 @@
 
 .table__caption {
     margin: 20px auto;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 14px;
+    color: #444;
+    font-weight: 400;
 }
 
 .section__button--invisible {
